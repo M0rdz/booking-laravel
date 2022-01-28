@@ -14,11 +14,19 @@ use Illuminate\Support\Facades\Route;
 */
 
 Route::get('/', function () {
-    return view('welcome');
+    return view('evento.home');
 });
 
-Route::get('/evento', [App\Http\Controllers\EventoController::class, 'home']);
+Route::group(['middleware' => ['auth']], function () {
 
+    Route::get('/evento', [App\Http\Controllers\EventoController::class, 'index']);
+    Route::post('/evento/mostrar', [App\Http\Controllers\EventoController::class, 'show']);
+    Route::post('/evento/agregar', [App\Http\Controllers\EventoController::class, 'store']);
+    Route::post('/evento/editar/{id}', [App\Http\Controllers\EventoController::class, 'edit']); 
+    Route::post('/evento/actualizar/{evento}', [App\Http\Controllers\EventoController::class, 'update']); 
+    Route::post('/evento/borrar/{id}', [App\Http\Controllers\EventoController::class, 'destroy']); 
+    });
+    
 Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name('home');
 
 Route::group(['middleware' => 'auth'], function() {
