@@ -3,13 +3,13 @@
         <nav class="float-left">
             <ul>
                 <li>
-                    <a href="https://www.creative-tim.com">
+                    <a href="https://www.lussona.com.mx">
                         {{ __('Lussona') }}
                     </a>
                 </li>
                 <li>
                     <a href="https://creative-tim.com/presentation">
-                        {{ __(') }}
+                        {{ __('') }}
                     </a>
                 </li>
                 <li>
@@ -28,8 +28,8 @@
         &copy;
         <script>
             document.write(new Date().getFullYear())
-        </script>, made with <i class="material-icons">favorite</i> by
-        <a href="https://www.creative-tim.com" target="_blank">Creative Tim</a>
+        </script> <i class="material-icons">favorite</i> by
+        <a href="https://www.lussona.com.mx" target="_blank">Lussona</a>
         </div>
     </div>
 </footer>

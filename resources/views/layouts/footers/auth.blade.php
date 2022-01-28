@@ -4,22 +4,22 @@
       <ul>
         <li>
           <a href="https://www.creative-tim.com">
-              {{ __('Creative Tim') }}
+              {{ __('Lussona') }}
           </a>
         </li>
         <li>
-          <a href="https://creative-tim.com/presentation">
-              {{ __('About Us') }}
+          <a href="">
+              {{ __('') }}
           </a>
         </li>
         <li>
-          <a href="http://blog.creative-tim.com">
-              {{ __('Blog') }}
+          <a href="">
+              {{ __('') }}
           </a>
         </li>
         <li>
-          <a href="https://www.creative-tim.com/license">
-              {{ __('Licenses') }}
+          <a href="">
+              {{ __('') }}
           </a>
         </li>
       </ul>
@@ -28,8 +28,8 @@
       &copy;
       <script>
         document.write(new Date().getFullYear())
-      </script>, made with <i class="material-icons">favorite</i> by
-      <a href="https://www.creative-tim.com" target="_blank">Creative Tim</a>
+      </script> <i class="material-icons"></i> by
+      <a href="https://www.creative-tim.com" target="_blank">M0rdz</a>
     </div>
   </div>
 </footer>

@@ -10,14 +10,14 @@
           <div class="card ">
             <!--Header-->
             <div class="card-header card-header-primary">
-              <h4 class="card-title">Post</h4>
-              <p class="card-category">Ingresar datos del nuevo post</p>
+              <h4 class="card-title">Agendar</h4>
+              <p class="card-category">Ingresar </p>
             </div>
             <!--End header-->
             <!--Body-->
             <div class="card-body">
               <div class="row">
-                <label for="title" class="col-sm-2 col-form-label">Post title</label>
+                <label for="title" class="col-sm-2 col-form-label">Fecha / Lancha / Moto</label>
                 <div class="col-sm-7">
                   <input type="text" class="form-control" name="title" placeholder="Ingrese el post title"
                     autocomplete="off" autofocus>

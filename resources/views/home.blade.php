@@ -1,11 +1,16 @@
-@extends('layouts.main', ['activePage' => 'dashboard', 'titlePage' => __('Dashboard')])
+@extends('layouts.main', ['activePage' => 'dashboard', 'titlePage' => __('Calendario')])
 
 @section('content')
 <div class="content">
     <div class="container-fluid">
         <div class="row">
-            <!--Enter code here -->
+
+            <div class="container">
+                <div id="agenda">
+                </div>
+             </div>
         </div>
     </div>
 </div>
+
 @endsection
