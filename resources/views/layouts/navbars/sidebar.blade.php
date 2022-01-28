@@ -6,7 +6,7 @@
   -->
   <div class="logo">
     <a href="https://creative-tim.com/" class="simple-text logo-normal">
-      {{ __('Creative Tim') }}
+      {{ __('Calendario Lussona') }}
     </a>
   </div>
   <div class="sidebar-wrapper">
@@ -14,13 +14,13 @@
       <li class="nav-item{{ $activePage == 'dashboard' ? ' active' : '' }}">
         <a class="nav-link" href="{{ route('home') }}">
           <i class="material-icons">dashboard</i>
-            <p>{{ __('Dashboard') }}</p>
+            <p>{{ __('Calendario') }}</p>
         </a>
       </li>
       <li class="nav-item {{ ($activePage == 'profile' || $activePage == 'user-management') ? ' active' : '' }}">
         <a class="nav-link" data-toggle="collapse" href="#laravelExample" aria-expanded="true">
           <i><img style="width:25px" src="{{ asset('img/laravel.svg') }}"></i>
-          <p>{{ __('Laravel Examples') }}
+          <p>{{ __('Mi Perfil') }}
             <b class="caret"></b>
           </p>
         </a>

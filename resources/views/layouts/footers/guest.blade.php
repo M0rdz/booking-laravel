@@ -4,22 +4,22 @@
             <ul>
                 <li>
                     <a href="https://www.creative-tim.com">
-                        {{ __('Creative Tim') }}
+                        {{ __('Lussona') }}
                     </a>
                 </li>
                 <li>
                     <a href="https://creative-tim.com/presentation">
-                        {{ __('About Us') }}
+                        {{ __(') }}
                     </a>
                 </li>
                 <li>
                     <a href="http://blog.creative-tim.com">
-                        {{ __('Blog') }}
+                        {{ __('') }}
                     </a>
                 </li>
                 <li>
                     <a href="https://www.creative-tim.com/license">
-                        {{ __('Licenses') }}
+                        {{ __('') }}
                     </a>
                 </li>
             </ul>
