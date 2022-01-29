@@ -17,7 +17,7 @@ class EventoController extends Controller
     {
         //llamar a nuestra vista
 
-        return view('evento.home');
+        return view('evento.calendar');
     }
 
     /**
