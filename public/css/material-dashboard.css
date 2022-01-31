@@ -10743,8 +10743,8 @@ fieldset[disabled][disabled] .btn-group-raised .btn,
   position: relative;
   display: inline-block;
   top: 0;
-  margin-top: -1em;
-  margin-bottom: -1em;
+  margin-top: -1rem;
+  margin-bottom: -1rem;
   font-size: 1.1rem;
   vertical-align: middle;
 }
