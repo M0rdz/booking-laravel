@@ -15,7 +15,7 @@ use Illuminate\Support\Facades\Route;
 
 Route::get('/', function () {
     return view('evento.calendario');
-});
+})->middleware("auth");
 
 Route::group(['middleware' => ['auth']], function () {
 
