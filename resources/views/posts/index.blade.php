@@ -22,7 +22,7 @@
               <table class="table ">
                 <thead class="text-primary">
                   <th> ID </th>
-                  <th> Nombre </th>
+                  <th> Num Departamento / Fecha / Servicio </th>
                   <th> Fecha de creación </th>
                   <th class="text-right"> Acciones </th>
                 </thead>
