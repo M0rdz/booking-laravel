@@ -1,11 +1,11 @@
-@extends('layouts.app')
+@extends('layouts.main', ['class' => 'off-canvas-sidebar', 'activePage' => 'Olvido Contraseña', 'title' => __('Calendario')])
 
 @section('content')
 <div class="container">
     <div class="row justify-content-center">
         <div class="col-md-8">
             <div class="card">
-                <div class="card-header">{{ __('Olvidaste tu contraseña?') }}</div>
+                <div class="card-header">{{ __('Ingresa tu correo electrónico para recibir una nueva contraseña') }}</div>
 
                 <div class="card-body">
                     @if (session('status'))
