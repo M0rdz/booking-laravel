@@ -39,6 +39,16 @@
         </a>
       </li>
       @endcan
+
+      @can('post_index')
+      <li class="nav-item{{ $activePage == 'posts' ? ' active' : '' }}">
+        <a class="nav-link" href="{{ route('posts.index') }}">
+          <i class="material-icons">library_books</i>
+            <p>{{ __('Agendar') }}</p>
+        </a>
+      </li>
+      @endcan
+
       @can('permission_index')
       <li class="nav-item{{ $activePage == 'permissions' ? ' active' : '' }}">
         <a class="nav-link" href="{{ route('permissions.index') }}">
