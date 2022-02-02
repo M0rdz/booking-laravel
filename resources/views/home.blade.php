@@ -26,25 +26,18 @@
                                 <form action="" id="formularioEventos">
 
                                     {!! csrf_field() !!}
-
-                                    <div class="form-group">
-                                        <label for="id">ID:</label>
-                                        <input type="text" class="form-control" name="id" id="id" aria-describedby="helpId" placeholder="">
-                                        <small id="helpId" class="form-text text-muted">Help text</small>
-                                    </div>
-
                                     
                                     <div class="form-group">
                                         <label for="id">Color:</label>
                                         <input type="color" class="form-control" name="color" id="color" aria-describedby="helpId" placeholder="">
-                                        <small id="helpId" class="form-text text-muted">Help text</small>
+                                        <small id="helpId" class="form-text text-muted"></small>
                                     </div>
 
 
                                     <div class="form-group">
                                         <label for="">Título</label>
                                         <input type="text" class="form-control" name="title" id="title" aria-describedby="helpId" placeholder="Escribe el título del evento">
-                                        <small id="helpId" class="form-text text-muted">Help text</small>
+                                        <small id="helpId" class="form-text text-muted"></small>
                                     </div>
 
                                     <div class="form-group">
@@ -55,13 +48,13 @@
                                     <div class="form-group">
                                         <label for="start">start</label>
                                         <input type="date" class="form-control" name="start" id="start" aria-describedby="helpId" placeholder="">
-                                        <small id="helpId" class="form-text text-muted">Help text</small>
+                                        <small id="helpId" class="form-text text-muted"></small>
                                     </div>
 
                                     <div class="form-group">
                                         <label for="end">end</label>
                                         <input type="date" class="form-control" name="end" id="end" aria-describedby="helpId" placeholder="">
-                                        <small id="helpId" class="form-text text-muted">Help text</small>
+                                        <small id="helpId" class="form-text text-muted"></small>
                                     </div>
 
 
@@ -73,7 +66,6 @@
                             <button type="button" class="btn btn-success" id="btnGuardar">Guardar</button>
                             <button type="button" class="btn btn-warning" id="btnModificar">Modificar</button>
                             <button type="button" class="btn btn-danger" id="btnEliminar">Eliminar</button>
-                            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
 
                         </div>
                     </div>

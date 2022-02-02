@@ -73,7 +73,7 @@
                             <button type="button" class="btn btn-success" id="btnGuardar">Guardar</button>
                             <button type="button" class="btn btn-warning" id="btnModificar">Modificar</button>
                             <button type="button" class="btn btn-danger" id="btnEliminar">Eliminar</button>
-                            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
+                    
 
                         </div>
                     </div>
