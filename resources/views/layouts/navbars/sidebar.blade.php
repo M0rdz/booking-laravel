@@ -4,11 +4,15 @@
 
       Tip 2: you can also add an image using data-image tag
   -->
+
   <div class="logo">
     <a href="" class="simple-text logo-normal">
       {{ __('Calendario Lussona') }}
     </a>
+
   </div>
+
+
   <div class="sidebar-wrapper">
     <ul class="nav">
       <li class="nav-item{{ $activePage == 'dashboard' ? ' active' : '' }}">
@@ -31,15 +35,6 @@
         </a>
       </li>
       @endcan
-      @can('post_index')
-      <li class="nav-item{{ $activePage == 'posts' ? ' active' : '' }}">
-        <a class="nav-link" href="{{ route('posts.index') }}">
-          <i class="material-icons">library_books</i>
-            <p>{{ __('Agendar') }}</p>
-        </a>
-      </li>
-      @endcan
-
       @can('post_index')
       <li class="nav-item{{ $activePage == 'posts' ? ' active' : '' }}">
         <a class="nav-link" href="{{ route('posts.index') }}">

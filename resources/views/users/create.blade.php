@@ -31,9 +31,9 @@
                 </div>
               </div>
               <div class="row">
-                <label for="username" class="col-sm-2 col-form-label">Nombre de usuario</label>
+                <label for="username" class="col-sm-2 col-form-label">Departamento</label>
                 <div class="col-sm-7">
-                  <input type="text" class="form-control" name="username" placeholder="Ingrese su nombre de usuario" value="{{ old('username') }}">
+                  <input type="text" class="form-control" name="username" placeholder="Ingrese su Departamento" value="{{ old('username') }}">
                   @if ($errors->has('username'))
                     <span class="error text-danger" for="input-username">{{ $errors->first('username') }}</span>
                   @endif

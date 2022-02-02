@@ -60,7 +60,7 @@
                                 @can('user_destroy')
                                 <form action="{{ route('users.delete', $user->id) }}" method="POST" style="display: inline-block;" onsubmit="return confirm('Seguro?')">
                                 @csrf
-                                @method('DELETE')
+                                @method('delete')
                                     <button class="btn btn-danger" type="submit" rel="tooltip">
                                     <i class="material-icons">close</i>
                                     </button>
