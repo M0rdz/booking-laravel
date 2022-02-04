@@ -17,6 +17,8 @@ Route::get('/', function () {
     return view('evento.calendario');
 })->middleware("auth");
 
+Auth::routes();
+
 Route::group(['middleware' => ['auth']], function () {
 
     Route::get('/evento', [App\Http\Controllers\EventoController::class, 'home']);

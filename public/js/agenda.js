@@ -13,7 +13,7 @@ document.addEventListener('DOMContentLoaded', function() {
       headerToolbar: {
           left: 'prev,next today',
           center: 'title',
-          right: 'dayGridMonth,listWeek'
+          right: 'dayGridMonth,dayGridWeek,listMonth'
       },
 
       //events:baseURL+"/evento/mostrar",
