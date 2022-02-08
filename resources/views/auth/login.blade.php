@@ -6,7 +6,7 @@
         <div class="col-md-9 ml-auto mr-auto mb-3 text-center">
             <h3>
 
-            <img src="{{ asset('\img\lussona-logo-c.png') }}" style="max-width:240px">   
+            <img src="{{ asset('\img\lussona-logo-c.png') }}" style="max-width:170px">   
 
             </h3>  
         </div>
