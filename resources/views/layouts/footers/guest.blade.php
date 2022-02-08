@@ -4,21 +4,21 @@
             <ul>
                 <li>
                     <a href="https://www.lussona.com.mx">
-                        {{ __('Lussona') }}
-                    </a>
-                </li>
-                <li>
-                    <a href="https://creative-tim.com/presentation">
                         {{ __('') }}
                     </a>
                 </li>
                 <li>
-                    <a href="http://blog.creative-tim.com">
+                    <a href="">
                         {{ __('') }}
                     </a>
                 </li>
                 <li>
-                    <a href="https://www.creative-tim.com/license">
+                    <a href="">
+                        {{ __('') }}
+                    </a>
+                </li>
+                <li>
+                    <a href="">
                         {{ __('') }}
                     </a>
                 </li>
